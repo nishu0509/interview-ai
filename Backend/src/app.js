@@ -8,7 +8,7 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
     origin:["http://localhost:5173", "http://localhost:5174", "https://interview-ai-one-zeta.vercel.app"],
-    credentials:true
+    credentials:false
 }))
 
 /* require all the routes here */
