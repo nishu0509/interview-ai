@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:3000/api/interview",
+  baseURL: `${import.meta.env.VITE_API_URL}/api/interview`,
 });
 
 API.interceptors.request.use((config) => {
@@ -36,4 +36,4 @@ export const generateResumePdf = async (interviewReportId) => {
   return API.post(`/resume/pdf/${interviewReportId}`, null, {
     responseType: "blob"
   });
-};
+}; 
