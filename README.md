@@ -16,3 +16,6 @@ An AI-powered interview preparation platform built with React, Node.js, and Goog
 - **Database:** MongoDB
 - **AI:** Google Gemini API
 - **PDF:** Puppeteer
+
+## 🚀 Live Demo
+[interview-ai-one-zeta.vercel.app](https://interview-ai-one-zeta.vercel.app)
